@@ -49,7 +49,7 @@ app = create_app(
     BlockBlastAction,
     BlockBlastObservation,
     env_name="block_blast_env",
-    max_concurrent_envs=1,  # increase this number to allow more concurrent WebSocket sessions
+    max_concurrent_envs=10,
 )
 
 
